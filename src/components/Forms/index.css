@@ -1,0 +1,98 @@
+.custom-input .ant-input-affix-wrapper {
+  padding: 0px 5px !important;
+}
+
+.custom-input .ant-input {
+  padding: 8px !important;
+}
+
+.filtercs .ant-input-affix-wrapper {
+  border: 0 !important;
+  padding: 5px !important;
+}
+
+.filtercs .ant-input-affix-wrapper input::placeholder {
+  color: var(--black-color) !important;
+}
+
+.custom-input1 .ant-input-affix-wrapper {
+  padding: 10px !important;
+  border-radius: 5px !important;
+}
+
+.custom-input1 {
+  margin-bottom: 0px !important;
+}
+
+.custom-select .ant-select-single,
+.custom-select .ant-select-multiple {
+  height: 40px !important;
+}
+
+.custom-select.ant-select-multiple .ant-select-selection-item {
+  border-color: #d9d9d9 !important;
+}
+
+.custom-select.ant-select-multiple .ant-select-selection-item {
+  background: transparent !important;
+  border: 1px solid var(--text-gray) !important;
+}
+
+.custom-select .ant-select-multiple .ant-select-selector {
+  height: 40px !important;
+  padding-top: 0px !important;
+}
+
+.custom-select .ant-select-multiple .ant-select-selection-wrap {
+  height: 40px !important;
+}
+
+.select {
+  height: 40px !important;
+}
+
+.ant-form-item
+  .ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  margin-inline-end: 0px !important;
+  margin-inline-start: 5px !important;
+  color: var(--inactive) !important;
+}
+
+.ant-form-item .ant-form-item-label > label::after {
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+}
+
+.ant-form-item .ant-form-item-label > label {
+  flex-direction: row-reverse !important;
+}
+
+.custom-input .ant-picker {
+  padding: 8px !important;
+}
+
+.without-timeinput {
+  padding: 8px !important;
+}
+
+.custom-input,
+.custom-select {
+  margin-bottom: 12px !important;
+}
+
+/* otp cs */
+
+.otp-cs .ant-otp {
+  width: 100%;
+}
+
+.otp-cs .ant-otp .ant-otp-input-wrapper {
+  flex-grow: 1;
+}
+
+.otp-cs .ant-otp .ant-otp-input-wrapper input {
+  height: 50px;
+}
