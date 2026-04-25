@@ -1,0 +1,211 @@
+.logo {
+  height: auto;
+  margin: 25px 14px;
+  text-align: center;
+}
+
+.site-layout .site-layout-background {
+  background: var(--white-text);
+  /* margin: 10px 20px; */
+  border-radius: 10px !important;
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+/* scrollbar */
+.scroll-bar::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #eeeeee;
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 7px;
+  background-color: #eeeeee;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #bbbbbb;
+}
+
+.ant-table-body::-webkit-scrollbar,
+.ant-table::-webkit-scrollbar,
+.ant-table-container::-webkit-scrollbar,
+.ant-table-content::-webkit-scrollbar {
+  width: 7px;
+  background-color: #eeeeee;
+  height: 5px;
+  border-radius: 8px;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb,
+.ant-table::-webkit-scrollbar-thumb,
+.ant-table-container::-webkit-scrollbar-thumb,
+.ant-table-content::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #bbbbbb;
+}
+
+.roundedImg {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+}
+
+.btnCheck .ant-space-item {
+  width: 100%;
+}
+
+.checkAll {
+  background-color: #7fb691;
+  padding: 10px;
+  border-radius: 10px;
+  height: 42px;
+  width: 100%;
+  display: block;
+  color: var(--black-color);
+}
+
+.border-0-btn {
+  border: 0px !important;
+  padding: 0px !important;
+}
+
+.listitem {
+  padding: 8px;
+}
+
+.listitem .ant-menu-submenu-title {
+  color: var(--black-color) !important;
+}
+
+.listitem .ant-menu-item {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100% !important;
+  border-radius: 10px !important;
+  color: var(--black-color) !important;
+  padding-left: 11px !important;
+  border-left: 5px solid transparent;
+}
+
+.listitem .ant-menu-sub {
+  position: relative;
+}
+
+.listitem .ant-menu-sub .ant-menu-item {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none !important;
+}
+
+.listitem .ant-menu-sub::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  height: 100%;
+  background: var(--brand-color);
+  width: 1px;
+  border-bottom-left-radius: 30px;
+  z-index: 1;
+}
+
+/* .listitem .ant-menu-sub .ant-menu-item{
+    position: relative;
+  }
+
+
+  .listitem .ant-menu-sub .ant-menu-item::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    height: 10px;
+    background-image: url(../../assets/images/radius.png);
+    background-size: 100% 100%;
+    width: 15px;
+    border-radius: 12px;
+  } */
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark > .ant-menu .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark .ant-menu-submenu-open .ant-menu-submenu-title {
+  background-color: var(--light-brand) !important;
+  border-color: var(--brand-color) !important;
+  z-index: 111;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu-sub .ant-menu-item-selected {
+  background: var(--light-brand) !important;
+  color: var(--brand-color) !important;
+  border: none !important;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu-sub span {
+  padding-inline: 0px;
+  border-radius: 8px;
+}
+
+/* .ant-menu-dark .ant-menu-submenu .ant-menu-sub .ant-menu-item-selected span{
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+  } */
+
+.ant-menu-dark .ant-menu-submenu {
+  margin-left: -3px;
+}
+
+.listitem li .ant-menu-title-content {
+  font-size: 13px;
+}
+
+.ant-menu-dark,
+.ant-menu-dark > .ant-menu {
+  background: var(--white-text) !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  /* border-left: 2px solid #778593; */
+  background-color: transparent;
+  margin-left: 20px;
+  padding-left: 8px;
+  margin-top: 5px;
+}
+
+/* .ant-menu-submenu-open .ant-menu-submenu-title{
+    background-color: var(--secondary-color) !important;
+  } */
+
+.ant-menu-submenu-title {
+  width: 97% !important;
+  border-left: 5px solid transparent;
+  background-color: transparent;
+  padding-left: 10px !important;
+  border-radius: 8px !important;
+  margin: 0px !important;
+  margin-left: 4px !important;
+}
+
+/* .ant-menu-dark>.ant-menu-submenu-popup .ant-menu-vertical{
+    background: #fff !important;
+  } */
+
+.ant-layout .ant-layout-sider {
+  flex: 0 0 220px !important;
+  max-width: 220px !important;
+  min-width: 220px !important;
+  width: 220px !important;
+}
+
+.ant-layout-sider.addclass {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
