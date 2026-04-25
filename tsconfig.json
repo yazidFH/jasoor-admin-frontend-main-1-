@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Language & environment */
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+
+    /* Module resolution */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* JavaScript interop — allows existing .jsx files to compile without renaming */
+    "allowJs": true,
+    "checkJs": false,
+
+    /* Strictness — off for now so existing JS files don't error; enable per-file gradually */
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    /* Output */
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
