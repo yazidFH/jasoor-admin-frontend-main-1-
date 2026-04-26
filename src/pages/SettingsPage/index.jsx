@@ -1,6 +1,7 @@
 import { Flex } from "antd";
 import {
   BankAccountCard,
+    CommissionBrackets,
   CommissionSocial,
   ModuleTopHeading,
   PasswordManager,
@@ -44,6 +45,7 @@ const SettingsPage = () => {
     <Flex vertical gap={20}>
       <ModuleTopHeading level={4} name={t("Settings")} />
       <CommissionSocial comssionSocial={comssionSocial} />
+            <CommissionBrackets />
       <PasswordManager />
       <BankAccountCard settingId={settingId} />
     </Flex>
